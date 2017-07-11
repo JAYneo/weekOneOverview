@@ -1,0 +1,85 @@
+
+.circle{
+  border-radius:100%;
+}
+.red{
+  background-color: #FF0000;
+}
+.green{
+  background-color: #00FF00
+}
+.blue{
+  background-color: #0000FF;
+}
+.large{
+  width:  280px;
+  height: 280px;
+}
+.medium{
+  width:  200px;
+  height: 200px;
+}
+.small{
+  width:  100px;
+  height: 100px;
+}
+.right{
+  position: relative;
+  right: 2.5px
+}
+.groovyRed{
+  border: 5px;
+  border-style: groove;
+  border-color: #FF0000;
+}
+.groovyBlue{
+  border: 10px;
+  border-style: groove;
+  border-color: #0000FF;
+}
+.groovy{
+  border: 10px;
+  border-style: groove;
+}
+.center{
+  margin: 0 auto
+}
+p{
+  color: #FFF;
+  font-family: fantasy;
+  font-size: 1.1em;
+  text-decoration:underline;
+}
+p2{
+  color: #FFF;
+  font-family: fantasy;
+  font-size:1em
+}
+div{
+  text-align:center;
+}
+img{
+  width:250px;
+  margin: 25px 0 25px 0;
+}
+#leftContent{
+  float: left;
+  width: 305px;
+  height: 1000px;
+}
+#rightContent{
+  float:right;
+  width: 305px;
+  height: 1000px;
+}
+#centerContent{
+  height: 1000px;
+  margin:0 auto;
+  background-color: #000;
+}
+#container{
+  background-color: #EEE;
+  width: 1000px;
+  height: 1000px;
+  position: relative;
+}
